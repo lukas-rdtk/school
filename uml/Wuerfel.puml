@@ -1,0 +1,9 @@
+@startuml
+skinparam classAttributeIconSize 0
+class Wuerfel {
+    - augen: int
+    + getAugen(): void
+    + wuerfeln(): int
+}
+
+@enduml
