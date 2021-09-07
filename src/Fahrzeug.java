@@ -3,6 +3,10 @@ public class Fahrzeug {
     double gewicht;
     double laufleistung;
 
+    public Fahrzeug(double gewicht) {
+        this.gewicht = gewicht;
+    }
+
     public double getGewicht() {
         return gewicht;
     }
