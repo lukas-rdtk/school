@@ -2,9 +2,12 @@ public class Wuerfel {
 
     int augen;
 
-    public int wuerfeln() {
+    public Wuerfel() {
+        wuerfeln();
+    }
+
+    public void wuerfeln() {
         augen = (byte) (Math.random() * 6 + 1);
-        return augen;
     }
 
     public int getAugen() {
