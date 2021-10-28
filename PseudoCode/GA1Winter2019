@@ -1,0 +1,13 @@
+Funktion erzeugeListe(int : persnr, int[][] : zeiten, int : jahr, int : monat)
+
+tag:= 1
+zeilenr:= 0
+summe:= 0
+ArrayListe zeiterfassungsliste = zweidimensionales Array
+
+schreibeKopf(persnr, jahr, monat)
+
+SOLANGE (zeilen < anzahl zeilen in zeiten)
+
+ENDE_SOLANGE
+

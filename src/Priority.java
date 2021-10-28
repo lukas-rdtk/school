@@ -12,6 +12,10 @@ public class Priority {
         this.name = name;
     }
 
+    public Priority(String name) {
+        this.name = name;
+    }
+
     public int getValue() {
         return value;
     }

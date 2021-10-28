@@ -1,0 +1,11 @@
+Funktion druckeReport(arrayTyp Messung: messung, int: messArtAnzahl, double: maxToleranz)
+
+FÜR_JEDE messung
+    SOLANGE (Datum von messung == Datum von messung)
+        int[][]: arrayTag:= setArray() : int [][]
+        WENN in Spalte messArt nicht vorhanden DANN
+            füge messArt von messung hinzu
+        WENN istWert > sollWert DANN
+            addiere die anzahlFehler in Zeile messArt um 1
+    ENDE_SOLANGE
+ENDE_FÜR_JEDE
