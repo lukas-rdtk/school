@@ -5,7 +5,7 @@ public class MouseBot {
         Robot robot = new Robot();
         while (true) {
             robot.mouseMove(400, 400);
-            Thread.sleep(5000);
+            Thread.sleep(60000);
         }
     }
 }
