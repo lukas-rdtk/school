@@ -10,7 +10,6 @@ public class Calc {
         int d = calc(calc(2, 2), calc(2, 1));
         System.out.println(d);
     }
-
     public static int calc(int a, int b) {
         return a < b ? a * b : a + b;
     }

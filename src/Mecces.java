@@ -1,6 +1,6 @@
 import java.awt.*;
 
-public class MouseBot {
+public class Mecces {
     public static void main(String[] args) throws AWTException, InterruptedException {
         Robot robot = new Robot();
         while (true) {
